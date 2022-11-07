@@ -10,7 +10,7 @@
 			opacity: 0;
 		}
 	</style>
-	<link rel="stylesheet" href="css/style.min.css?_v=20221107124733">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221107131029">
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -148,20 +148,20 @@
 												<div class="tabs__body">
 													<div class="form__line">
 														<div class="form__label">
-															<label for="">Подготовить сдачу с</label>
+															<label for="name">Подготовить сдачу с</label>
 														</div>
 														<div class="form__input">
-															<input autocomplete="off" type="text" name="form[]" placeholder="Сумма" class="input">
+															<input id="name" autocomplete="off" type="text" name="form[]" placeholder="Сумма" class="input">
 														</div>
 													</div>
 												</div>
 												<div class="tabs__body">
 													<div class="form__line">
 														<div class="form__label">
-															<label for="">Номер карты</label>
+															<label for="card">Номер карты</label>
 														</div>
 														<div class="form__input">
-															<input autocomplete="off" type="text" name="form[]" placeholder="Номер" class="input _card">
+															<input id="card" autocomplete="off" type="text" name="form[]" placeholder="Номер" class="input _card">
 														</div>
 													</div>
 												</div>
@@ -175,12 +175,12 @@
 									</div>
 									<div class="form__line">
 										<div class="form__label">
-											<label for="">Палочки + соус</label>
+											<label for="souce">Палочки + соус</label>
 										</div>
 										<div class="quantity">
 											<button type="button" class="quantity__button quantity__button_plus"></button>
 											<div class="quantity__input">
-												<input autocomplete="off" type="text" name="form[]" value="10">
+												<input id="souce" autocomplete="off" type="text" name="form[]" value="10">
 											</div>
 											<button type="button" class="quantity__button quantity__button_minus"></button>
 										</div>
@@ -230,11 +230,11 @@
 																<div class="tabs__body"></div>
 																<div class="tabs__body tabs__body_margin">
 																	<div class="form__line">
-																		<label for="" class="form__input__label">
+																		<label for="time" class="form__input__label">
 																			Укажите удобное время:
 																		</label>
 																		<div class="form__input">
-																			<input autocomplete="off" type="text" name="form[]" placeholder="Время" class="input">
+																			<input id="time" autocomplete="off" type="text" name="form[]" placeholder="Время" class="input">
 																		</div>
 																	</div>
 																</div>
@@ -358,7 +358,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20221107124733"></script>
+	<script src="js/app.min.js?_v=20221107131029"></script>
 </body>
 
 </html>
